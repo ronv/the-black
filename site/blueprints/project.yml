@@ -1,0 +1,29 @@
+title: Project
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+    width: 3/4
+
+  year:
+    label: Year
+    type:  text
+    width: 1/4
+    required: true
+
+  coverimage:
+    label: Cover Image
+    type: image
+    required: true
+    help: min. 1200px x 1200px
+
+  text:
+    label: Text
+    type:  textarea
+    required: true

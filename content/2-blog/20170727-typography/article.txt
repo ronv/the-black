@@ -1,0 +1,190 @@
+Title: Typography
+
+----
+
+Coverimage: mitchell-hollander-204156.jpg
+
+----
+
+Date: 2017-07-27
+
+----
+
+Text: 
+
+## Line breaks & paragraphs
+Kirbytext automatically converts single line breaks and paragraphs.
+
+```
+My first line
+My second line
+
+Another paragraph
+```
+
+
+## Headlines
+
+# Headline 1
+## Headline 2
+### Headline 3
+#### Headline 4
+##### Headline 5
+###### Headline 6
+
+
+```
+# Headline 1
+## Headline 2
+### Headline 3
+#### Headline 4
+##### Headline 5
+###### Headline 6
+```
+
+
+
+## Responsive video
+
+(youtube: http://www.youtube.com/watch?v=lLuc6rtWkrM)
+
+
+```
+(youtube: http://www.youtube.com/watch?v=lLuc6rtWkrM)
+
+```
+
+
+
+## Buttons
+
+(link: http://wikipedia.org text: Button blue class: btn btn-outline blue)
+
+(link: http://wikipedia.org text: Button black class: btn btn-outline black)
+
+(link: http://wikipedia.org text: Button navy class: btn btn-outline navy)
+
+(link: http://wikipedia.org text: Button olive class: btn btn-outline olive)
+
+(link: http://wikipedia.org text: Button red class: btn btn-outline red)
+
+(link: http://wikipedia.org text: Button fuchsia class: btn btn-outline fuchsia)
+
+(link: http://wikipedia.org text: Button purple class: btn btn-outline purple)
+
+(link: http://wikipedia.org text: Button maroon class: btn btn-outline maroon)
+
+```
+(link: http://wikipedia.org text: Button blue class: btn btn-outline blue)
+(link: http://wikipedia.org text: Button black class: btn btn-outline black)
+(link: http://wikipedia.org text: Button navy class: btn btn-outline navy)
+(link: http://wikipedia.org text: Button olive class: btn btn-outline olive)
+(link: http://wikipedia.org text: Button red class: btn btn-outline red)
+(link: http://wikipedia.org text: Button fuchsia class: btn btn-outline fuchsia)
+(link: http://wikipedia.org text: Button purple class: btn btn-outline purple)
+(link: http://wikipedia.org text: Button maroon class: btn btn-outline maroon)
+```
+
+
+
+## Bold Text
+
+**The quick brown fox jumps over the lazy dog**
+
+```
+**The quick brown fox jumps over the lazy dog**
+```
+
+
+## Italic Text
+
+_The quick brown fox jumps over the lazy dog_
+
+```
+_The quick brown fox jumps over the lazy dog_
+```
+
+## Strikethrough Text
+
+~~The quick brown fox jumps over the lazy dog~~
+
+```
+~~The quick brown fox jumps over the lazy dog~~
+```
+
+
+## Unordered Lists
+
+- Homer
+- Marge
+- Bart
+- Lisa
+- Maggie
+
+```
+- Homer
+- Marge
+- Bart
+- Lisa
+- Maggie
+```
+
+
+
+## Ordered Lists
+
+1. Homer
+2. Marge
+3. Bart
+4. Lisa
+5. Maggie
+
+```
+1. Homer
+2. Marge
+3. Bart
+4. Lisa
+5. Maggie
+```
+
+
+## Horizontal Rules
+
+****
+
+```
+****
+```
+
+
+
+## Quotes
+
+> Design is not just what it looks like and feels like.
+> Design is how it works.
+
+– Steve Jobs
+
+```
+> Design is not just what it looks like and feels like.
+> Design is how it works.
+
+– Steve Jobs
+```
+
+
+
+## Code Blocks
+Blocks of code are either fenced by lines with three back-ticks or are indented with four spaces.
+
+```
+<?php
+// awesome code example
+?>
+```
+
+    ```
+    <?php
+    // awesome code example
+    ?>
+    ``

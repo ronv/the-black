@@ -1,0 +1,51 @@
+title: Site
+
+pages: default
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  author:
+    label: Author
+    type:  text
+    icon: user
+
+  description:
+    label: Description
+    type:  textarea
+
+  copyright:
+    label: Copyright
+    type:  text
+    icon: copyright
+
+  featuredimage:
+    label: Cover Image
+    type: image
+    required: true
+    help: min. 1200px x 1200px
+
+  twitter:
+    label: Twitter
+    type: text
+    icon: twitter
+    width: 1/2
+
+  twitter_author:
+     label: Twitter author
+     type: text
+     icon: twitter
+     width: 1/2
+
+  facebook_admin:
+     label: Facebook admin ID
+     type: text
+     icon: facebook
+
+  googleAnalytics:
+      label: Google Analytics ID
+      type: text
+      icon: code
+      help: Tracking ID in the form UA-XXXXXXXX-X. Keep this field empty if you are not using it.

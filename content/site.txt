@@ -1,0 +1,33 @@
+Title: The Black
+
+----
+
+Author: Jonathan Creed
+
+----
+
+Description: This is the new black.
+
+----
+
+Copyright: © 2009–(date: Year)
+
+----
+
+Twitter: ronaldsvilcins
+
+----
+
+Googleanalytics: 
+
+----
+
+Twitter-author: ronaldsvilcins
+
+----
+
+Facebook-admin: 162151797206468
+
+----
+
+Featuredimage: marcus-castro-310949.jpg

@@ -1,0 +1,30 @@
+title: Blog
+
+files: false
+
+pages:
+  template: article
+  sort: flip
+  num: date
+
+options:
+  template: false
+  status: false
+  delete: false
+
+icon: newspaper-o
+
+fields:
+  title:
+    label: Title
+    type: title
+    required: true
+    width: 3/4
+
+  perpage:
+    label: Posts per page
+    type: number
+    min: 1
+    max: 20
+    default: 5
+    width: 1/4

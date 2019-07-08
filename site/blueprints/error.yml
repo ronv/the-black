@@ -1,0 +1,18 @@
+title: Error
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  coverimage:
+    label: Cover Image
+    type: image
+    required: true
+    help: min. 1200px x 1200px
+
+  text:
+    label: Text
+    type:  textarea

@@ -1,0 +1,58 @@
+title: Contact
+
+pages: false
+
+options:
+  delete: false
+
+fields:
+  title:
+    label: Title
+    type: title
+
+  text:
+    label: Text
+    type: textarea
+    required: true
+
+  coverimage:
+     label: Cover Image
+     type: image
+     required: true
+     help: min. 1200px x 1200px
+
+  street:
+    label: Street
+    type: text
+    icon: road
+
+  zip:
+    label: ZIP
+    type: number
+    width: 1/4
+
+  location:
+    label: Location
+    type: text
+    icon: map-marker
+    width: 3/4
+    required: true
+
+  links:
+    label: Links
+    type: structure
+    required: true
+    entry: >
+      {{label}}: {{value}} - ({{url}})
+    fields:
+      label:
+        label: Label
+        type: text
+        icon: font
+      value:
+        label: Value
+        type: text
+        icon: font
+      url:
+        label: Url
+        type: url
